@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritesh Kumar — AI Engineer &amp; Full-Stack Developer</title>
+  <meta name="description" content="AI engineer and full-stack developer based in Vadodara, India. Building intelligent systems, automated LLM pipelines, and resilient full-stack applications." />
+  <meta name="author" content="Ritesh Kumar" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ritesh Kumar — AI Engineer &amp; Full-Stack Developer" />
+  <meta property="og:description" content="AI engineer and full-stack developer based in Vadodara, India. Building intelligent systems, automated LLM pipelines, and resilient full-stack applications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://riteshhkumarr.github.io/" />
+  <meta property="og:site_name" content="Ritesh Kumar Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ritesh Kumar — AI Engineer &amp; Full-Stack Developer" />
+  <meta name="twitter:description" content="AI engineer and full-stack developer based in Vadodara, India. Building intelligent systems, automated LLM pipelines, and resilient full-stack applications." />
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%230d1b2a'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='42' fill='%23ffd84d'>RK</text></svg>" />
+
+  <!-- Google Fonts: Bricolage Grotesque (headings 500-800) and Figtree (body) with async non-blocking loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  </noscript>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sticky Header with Name and Anchor Links (Work, Projects, Skills, Certifications, Contact) -->
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a href="#top" class="brand-logo">
+        <span class="logo-box">RK</span>
+        <span class="logo-name">Ritesh Kumar</span>
+      </a>
+
+      <!-- Anchor links, hiding extra links on small screens via CSS -->
+      <nav class="nav-links" id="navMenu" aria-label="Main navigation">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-sm btn-primary">Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Two-Column Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Left Column: Headline, Two-Sentence Intro, Four Buttons -->
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Vadodara, India &bull; Parul University &bull; TaxTrack</span>
+          </div>
+
+          <h1 class="hero-headline">
+            I build AI products and full-stack applications.
+          </h1>
+
+          <p class="hero-intro">
+            AI engineer and full-stack developer pursuing a B.Tech in Computer Science (AI) at Parul University. Served as Team Lead at TaxTrack in 2024, engineering automated systems and language model pipelines.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary hero-btn">
+              <span>See my projects</span>
+            </a>
+            <a href="assets/Ritesh_Kumar_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary hero-btn" download>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download resume</span>
+            </a>
+            <a href="mailto:kumaritesh9142@gmail.com" target="_blank" rel="noopener" class="btn btn-secondary hero-btn">
+              <span>Email me</span>
+            </a>
+            <a href="https://github.com/Riteshhkumarr" target="_blank" rel="noopener" class="btn btn-secondary hero-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ritesh-kumar0" target="_blank" rel="noopener" class="btn btn-secondary hero-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: "What I do" Component with Accessible Tabs -->
+        <div class="hero-right">
+          <div class="what-i-do-card tilt-card" data-tilt>
+            <div class="card-top">
+              <span class="card-eyebrow">Overview</span>
+              <h2 class="card-main-title">What I do</h2>
+            </div>
+
+            <!-- Tab List Container -->
+            <div class="tab-list" role="tablist" aria-label="What I do categories">
+              <button
+                type="button"
+                role="tab"
+                id="tab-aiml"
+                class="tab-btn active"
+                aria-selected="true"
+                aria-controls="panel-aiml"
+                tabindex="0"
+              >
+                AI and ML
+              </button>
+              <button
+                type="button"
+                role="tab"
+                id="tab-fullstack"
+                class="tab-btn"
+                aria-selected="false"
+                aria-controls="panel-fullstack"
+                tabindex="-1"
+              >
+                Full-stack
+              </button>
+              <button
+                type="button"
+                role="tab"
+                id="tab-leadership"
+                class="tab-btn"
+                aria-selected="false"
+                aria-controls="panel-leadership"
+                tabindex="-1"
+              >
+                Leadership
+              </button>
+            </div>
+
+            <!-- Tab Panels -->
+            <div class="tab-panels">
+              <!-- Panel 1: AI and ML -->
+              <div
+                role="tabpanel"
+                id="panel-aiml"
+                class="tab-panel active"
+                aria-labelledby="tab-aiml"
+                tabindex="0"
+              >
+                <ul class="tab-bullets">
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Led AI-powered automation engineering resulting in 70% less manual processing.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Integrated LLM and NLP pipelines serving over 100 active users.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Engineered EduGuard computer vision system using OpenCV and face_recognition with 90%+ accuracy and 70% less manual effort.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Panel 2: Full-stack -->
+              <div
+                role="tabpanel"
+                id="panel-fullstack"
+                class="tab-panel"
+                aria-labelledby="tab-fullstack"
+                tabindex="0"
+                hidden
+              >
+                <ul class="tab-bullets">
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Built REST APIs and automated AI document validation pipelines achieving 60% fewer errors.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Engineered full-stack applications using Python, Flask, React, Node.js, MongoDB, and SQLite.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Developed LeadFlow connecting Google Apps Script, Gemini API, Gmail, and Google Sheets for automated processing.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Panel 3: Leadership -->
+              <div
+                role="tabpanel"
+                id="panel-leadership"
+                class="tab-panel"
+                aria-labelledby="tab-leadership"
+                tabindex="0"
+                hidden
+              >
+                <ul class="tab-bullets">
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Team Lead at TaxTrack, owning sprint planning, code reviews, and delivery.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Student Coordinator for Dhoom 2024, managing event logistics across multidisciplinary teams.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot" aria-hidden="true"></span>
+                    <span>Public Speaker at Global FunFest (2023 to 2024), engaging and presenting to diverse audiences.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Four-Column Stats Row -->
+    <section class="stats-section" aria-label="Key engineering metrics">
+      <div class="container">
+        <div class="stats-row">
+          <div class="stat-col tilt-card" data-tilt>
+            <span class="stat-number">70%</span>
+            <span class="stat-text">less manual processing</span>
+          </div>
+          <div class="stat-col tilt-card" data-tilt>
+            <span class="stat-number">100+</span>
+            <span class="stat-text">users served</span>
+          </div>
+          <div class="stat-col tilt-card" data-tilt>
+            <span class="stat-number">60%</span>
+            <span class="stat-text">fewer errors</span>
+          </div>
+          <div class="stat-col tilt-card" data-tilt>
+            <span class="stat-number">90%+</span>
+            <span class="stat-text">accuracy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Where I Work & Education Section -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Experience &amp; Education</span>
+          <h2 class="section-title">Where I work</h2>
+        </div>
+
+        <div class="two-col-layout">
+          <!-- TaxTrack Role Entry -->
+          <article class="two-col-row">
+            <div class="row-label">
+              <h3 class="label-heading">TaxTrack</h3>
+              <span class="label-meta">2024</span>
+              <span class="label-sub">Software Engineering</span>
+            </div>
+
+            <div class="row-content">
+              <h4 class="content-heading">Team Lead</h4>
+              <p class="content-intro">
+                Directing software engineering and AI implementation, overseeing architectural choices, and driving automation across core product offerings.
+              </p>
+
+              <ul class="content-bullets">
+                <li>Led AI-powered automation engineering (70% less manual processing).</li>
+                <li>Integrated LLM and NLP pipelines for 100+ users.</li>
+                <li>Built REST APIs and AI document validation (60% fewer errors).</li>
+                <li>Own sprint planning, code reviews, and delivery.</li>
+              </ul>
+
+              <div class="work-tech-row">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">LLMs</span>
+                <span class="tech-chip">NLP</span>
+                <span class="tech-chip">Flask</span>
+                <span class="tech-chip">MongoDB</span>
+                <span class="tech-chip">React</span>
+                <span class="tech-chip">REST APIs</span>
+                <span class="tech-chip">Agile / Scrum</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Parul University Education Entry -->
+          <article class="two-col-row">
+            <div class="row-label">
+              <h3 class="label-heading">Parul University</h3>
+              <span class="label-meta">Sep 2023 &ndash; Sep 2027</span>
+              <span class="label-sub">Vadodara, India</span>
+            </div>
+
+            <div class="row-content">
+              <div class="education-title-row">
+                <h4 class="content-heading">B.Tech in Computer Science (Artificial Intelligence)</h4>
+                <span class="marks-badge">CGPA: 7.13</span>
+              </div>
+              <p class="content-intro">
+                Undergraduate coursework centered on core computing foundations, data structures and algorithms, object-oriented programming, and artificial intelligence systems.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Engineering Systems</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Real-world systems spanning language models, automated pipelines, and computer vision.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Card 1: TaxTrack -->
+          <article class="project-card tilt-card" data-tilt>
+            <h3 class="project-card-title">TaxTrack</h3>
+            <p class="project-card-desc">
+              AI-powered automation platform designed to streamline operations through integrated language model and natural language processing pipelines. Features automated REST APIs and document validation mechanisms to reduce manual effort and processing errors.
+            </p>
+            <div class="project-tech-line">
+              <span class="project-tech-label">Tech Stack</span>
+              Python, LLMs, NLP, Flask, MongoDB, React
+            </div>
+            <a href="https://github.com/Riteshhkumarr" target="_blank" rel="noopener" class="project-card-link">
+              <span>View TaxTrack on GitHub &rarr;</span>
+            </a>
+          </article>
+
+          <!-- Card 2: LeadFlow -->
+          <article class="project-card tilt-card" data-tilt>
+            <h3 class="project-card-title">LeadFlow</h3>
+            <p class="project-card-desc">
+              Inbound workflow automation system connecting Gemini API with Gmail and Google Sheets to handle incoming communications seamlessly. Automatically parses incoming messages and synchronizes structured lead data directly into spreadsheets.
+            </p>
+            <div class="project-tech-line">
+              <span class="project-tech-label">Tech Stack</span>
+              Google Apps Script, Gemini API, Gmail, Google Sheets
+            </div>
+            <a href="https://github.com/Riteshhkumarr/Anantams-project-" target="_blank" rel="noopener" class="project-card-link">
+              <span>View LeadFlow repository &rarr;</span>
+            </a>
+          </article>
+
+          <!-- Card 3: EduGuard -->
+          <article class="project-card tilt-card" data-tilt>
+            <h3 class="project-card-title">EduGuard</h3>
+            <p class="project-card-desc">
+              Computer vision attendance and verification system engineered with facial recognition algorithms for real-time identification. Validated with over 50 students to automate record-keeping with high accuracy and minimal manual effort.
+            </p>
+            <div class="project-tech-line">
+              <span class="project-tech-label">Tech Stack</span>
+              Python, OpenCV, face_recognition, SQLite
+            </div>
+            <a href="https://github.com/Riteshhkumarr" target="_blank" rel="noopener" class="project-card-link">
+              <span>View EduGuard on GitHub &rarr;</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Skills</h2>
+        </div>
+
+        <dl class="skills-dl">
+          <div class="skills-row">
+            <dt>Languages</dt>
+            <dd>Python, JavaScript, Java, C, C++</dd>
+          </div>
+          <div class="skills-row">
+            <dt>AI &amp; ML</dt>
+            <dd>LLMs, prompt engineering, NLP, computer vision, OpenCV</dd>
+          </div>
+          <div class="skills-row">
+            <dt>Full-Stack &amp; Backend</dt>
+            <dd>React, Node.js, Flask, REST APIs</dd>
+          </div>
+          <div class="skills-row">
+            <dt>Databases</dt>
+            <dd>MongoDB, MySQL, SQLite</dd>
+          </div>
+          <div class="skills-row">
+            <dt>Tools</dt>
+            <dd>Git, GitHub, Docker, Postman, AWS Cloud</dd>
+          </div>
+          <div class="skills-row">
+            <dt>Practices</dt>
+            <dd>DSA, OOP, Agile and Scrum</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header certs-header-flex">
+          <div class="certs-header-text">
+            <span class="section-tag">Credentials</span>
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Verified credentials with direct online viewing, downloads, and update controls.</p>
+          </div>
+          <button type="button" class="btn btn-primary add-cert-btn" id="openAddCertBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>Add certificate</span>
+          </button>
+        </div>
+
+        <div class="certs-two-col" id="certsGrid">
+          <!-- Cert 1: AWS Academy -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-aws">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">AWS</span>
+              <div class="cert-details">
+                <strong class="cert-title">AWS Academy Graduate, Cloud Foundations</strong>
+                <div class="cert-sub">AWS Academy &bull; Sep 2025</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/aws-cloud-foundations.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View AWS Academy Graduate certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/aws-cloud-foundations.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download AWS Academy Graduate certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-aws" aria-label="Modify AWS Academy Graduate certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Cert 2: IBM SkillsBuild -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-ibm">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">IBM</span>
+              <div class="cert-details">
+                <strong class="cert-title">IBM SkillsBuild AI Fundamentals</strong>
+                <div class="cert-sub">IBM SkillsBuild &bull; Sep 2025</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/ibm-ai-fundamentals.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View IBM SkillsBuild AI Fundamentals certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/ibm-ai-fundamentals.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download IBM SkillsBuild AI Fundamentals certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-ibm" aria-label="Modify IBM SkillsBuild AI Fundamentals certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Cert 3: Cisco Networking Academy -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-cisco">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">CISCO</span>
+              <div class="cert-details">
+                <strong class="cert-title">AI Fundamentals</strong>
+                <div class="cert-sub">Cisco Networking Academy and Parul University &bull; Sep 2025</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/cisco-ai-fundamentals.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View Cisco AI Fundamentals certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/cisco-ai-fundamentals.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download Cisco AI Fundamentals certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-cisco" aria-label="Modify Cisco AI Fundamentals certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Cert 4: TCS iON -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-tcs">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">TCS</span>
+              <div class="cert-details">
+                <strong class="cert-title">Introduction to Soft Skills</strong>
+                <div class="cert-sub">TCS iON &bull; Jan 2024</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/tcs-soft-skills.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View TCS iON Introduction to Soft Skills certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/tcs-soft-skills.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download TCS iON Introduction to Soft Skills certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-tcs" aria-label="Modify TCS iON Introduction to Soft Skills certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Cert 5: LinkedIn Learning -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-ethics">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">LINKEDIN</span>
+              <div class="cert-details">
+                <strong class="cert-title">Ethics in the Age of Generative AI</strong>
+                <div class="cert-sub">LinkedIn Learning &bull; Dec 2023</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/ethics-in-generative-ai.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View Ethics in the Age of Generative AI certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/ethics-in-generative-ai.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download Ethics in the Age of Generative AI certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-ethics" aria-label="Modify Ethics in the Age of Generative AI certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Cert 6: Kushal Yuva Programme -->
+          <article class="cert-card tilt-card" data-tilt data-cert-id="cert-kyp">
+            <div class="cert-header">
+              <span class="cert-badge" aria-hidden="true">BSDM</span>
+              <div class="cert-details">
+                <strong class="cert-title">Kushal Yuva Programme</strong>
+                <div class="cert-sub">Bihar Skill Development Mission &bull; Oct 2023</div>
+              </div>
+            </div>
+            <div class="cert-actions">
+              <a href="assets/certificates/kushal-yuva-programme.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-sm cert-btn cert-view-link" aria-label="View Kushal Yuva Programme certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>View</span>
+              </a>
+              <a href="assets/certificates/kushal-yuva-programme.pdf" download class="btn btn-primary btn-sm cert-btn cert-download-link" aria-label="Download Kushal Yuva Programme certificate">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download</span>
+              </a>
+              <button type="button" class="btn btn-secondary btn-sm cert-btn cert-modify-btn" data-cert-id="cert-kyp" aria-label="Modify Kushal Yuva Programme certificate">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+                <span>Modify</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Management Modal -->
+    <dialog id="certDialog" class="cert-modal-dialog" aria-labelledby="certModalHeading">
+      <div class="cert-modal-box">
+        <div class="cert-modal-header">
+          <div class="cert-modal-title-group">
+            <span class="cert-modal-badge" id="modalActionBadge">NEW</span>
+            <h3 id="certModalHeading" class="cert-modal-title">Add certificate</h3>
+          </div>
+          <button type="button" class="btn btn-secondary cert-close-btn" id="closeCertModalBtn" aria-label="Close dialog">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <form id="certForm" class="cert-modal-form">
+          <input type="hidden" id="certEditId" value="" />
+
+          <div class="form-group">
+            <label for="certTitleInput" class="form-label">Certificate Title <span class="required-star">*</span></label>
+            <input type="text" id="certTitleInput" class="form-input" placeholder="e.g. Google Cloud Certified Associate" required />
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="certIssuerInput" class="form-label">Issuer Organization <span class="required-star">*</span></label>
+              <input type="text" id="certIssuerInput" class="form-input" placeholder="e.g. Google Cloud" required />
+            </div>
+            <div class="form-group">
+              <label for="certDateInput" class="form-label">Date or Period <span class="required-star">*</span></label>
+              <input type="text" id="certDateInput" class="form-input" placeholder="e.g. Oct 2026" required />
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="certBadgeInput" class="form-label">Badge Label (e.g. GCP, AWS)</label>
+              <input type="text" id="certBadgeInput" class="form-input" placeholder="e.g. GCP" maxlength="10" />
+            </div>
+            <div class="form-group">
+              <label for="certFileInput" class="form-label">Upload File (PDF / Image)</label>
+              <input type="file" id="certFileInput" class="form-input-file" accept="application/pdf,image/*" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="certPathInput" class="form-label">Or Custom File URL / Path</label>
+            <input type="text" id="certPathInput" class="form-input" placeholder="e.g. assets/certificates/my-cert.pdf" />
+            <span class="form-help">Uploaded files are embedded in-browser. Or type a relative path like `assets/certificates/name.pdf`.</span>
+          </div>
+
+          <div class="cert-modal-actions">
+            <button type="submit" class="btn btn-primary" id="saveCertBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span id="saveBtnText">Save certificate</span>
+            </button>
+            <button type="button" class="btn btn-secondary" id="copyCertHtmlBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span>Copy HTML code</span>
+            </button>
+            <button type="button" class="btn btn-secondary" id="cancelCertBtn">Cancel</button>
+          </div>
+          <div id="certModalFeedback" class="form-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </dialog>
+      </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Involvement</span>
+          <h2 class="section-title">Leadership</h2>
+        </div>
+
+        <div class="leadership-list">
+          <div class="leadership-item">
+            <strong class="leadership-role">Team Lead at TaxTrack</strong>
+            <span class="leadership-period">2024</span>
+          </div>
+          <div class="leadership-item">
+            <strong class="leadership-role">Student Coordinator, Dhoom 2024</strong>
+            <span class="leadership-period">2024</span>
+          </div>
+          <div class="leadership-item">
+            <strong class="leadership-role">Public Speaker, Global FunFest</strong>
+            <span class="leadership-period">2023 to 2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Curriculum Vitae</span>
+          <h2 class="section-title">Resume</h2>
+          <p class="section-subtitle">Download or view the verified master curriculum vitae.</p>
+        </div>
+
+        <div class="resume-card-3d tilt-card" data-tilt>
+          <div class="resume-3d-inner">
+            <div class="resume-file-info">
+              <div class="resume-badge-3d" aria-hidden="true">
+                <span class="resume-badge-pdf">PDF</span>
+              </div>
+              <div class="resume-meta-box">
+                <strong class="resume-filename">Ritesh_Kumar_Resume.pdf</strong>
+                <span class="resume-filesize">Verified curriculum vitae &bull; Master document (~63 KB)</span>
+                <div class="resume-tags">
+                  <span class="resume-tag">Team Lead &bull; TaxTrack</span>
+                  <span class="resume-tag">AI &bull; Full-stack</span>
+                  <span class="resume-tag">Parul University</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-actions">
+              <a href="assets/Ritesh_Kumar_Resume.pdf" download class="btn btn-primary resume-action-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download resume</span>
+              </a>
+              <a href="assets/Ritesh_Kumar_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary resume-action-btn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Open in new tab</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-yellow-block tilt-card" data-tilt>
+          <div class="contact-block-content">
+            <span class="contact-eyebrow">Get in touch</span>
+            <h2 class="contact-heading">Contact</h2>
+            <p class="contact-subtext">Feel free to connect directly via email, phone, or LinkedIn.</p>
+          </div>
+
+          <div class="contact-buttons-row">
+            <a href="mailto:kumaritesh9142@gmail.com" class="btn contact-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Email: kumaritesh9142@gmail.com</span>
+            </a>
+
+            <a href="tel:+919142605976" class="btn contact-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>Phone: +91 9142605976</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ritesh-kumar0" target="_blank" rel="noopener" class="btn contact-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Plain Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-plain-text">Ritesh Kumar &bull; Vadodara, India</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
